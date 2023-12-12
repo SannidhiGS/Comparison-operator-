@@ -1,0 +1,28 @@
+<?php
+$num1 = 10;
+$num2 = 5;
+
+// Equal to
+$result1 = ($num1 == $num2); // false
+
+// Not equal to
+$result2 = ($num1 != $num2); // true
+
+// Identical to
+$result3 = ($num1 === $num2); // false
+
+// Not identical to
+$result4 = ($num1 !== $num2); // true
+
+// Greater than
+$result5 = ($num1 > $num2); // true
+
+// Less than
+$result6 = ($num1 < $num2); // false
+
+// Greater than or equal to
+$result7 = ($num1 >= $num2); // true
+
+// Less than or equal to
+$result8 = ($num1 <= $num2); // false
+?>
